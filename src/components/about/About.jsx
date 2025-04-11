@@ -1,20 +1,20 @@
 import React from "react";
 import "./about.css";
-import Andre from "../../assets/andre-tavares-about.webp";
+import Andre from "../../assets/eu.jpeg";
 import { GiNinjaHead } from "react-icons/gi";
 import { GoOrganization } from "react-icons/go";
 import { RiTeamFill } from "react-icons/ri";
 
 const About = () => {
   return (
-    <section id="about">
+    <section id="eu">
       <h5 className="text-light">Atuação em projetos</h5>
       <h2 className="text-light">Tecnologia, design, marketing e educação</h2>
 
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={Andre} alt="André Tavares por Nathalia Millen" />
+        <div className="eu.jpeg">
+          <div className="eu.jpeg">
+            <img src={Andre} alt="eu.jpeg" />
           </div>
         </div>
         <div className="about__content">
